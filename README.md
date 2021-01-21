@@ -18,7 +18,7 @@ Both passwords are "password"
 # Usage
 Login with admin, navigate to http://localhost:8000/admin. I'll see will be allowed.  
 Login with user, navigate to http://localhost:8000/admin. I'll see will be redirected to dashboard, because user isn't allowed to access.  
-The middleware will check, User's role attibute, and redirect it if not allowed.
+The middleware will check User's role attibute and redirect it if not allowed.
 
 # Important Files
 app\Http\Middleware\ChechRole  
