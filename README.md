@@ -21,7 +21,7 @@ Login with user, navigate to http://localhost:8000/admin. I'll see will be redir
 The middleware will check User's role attibute and redirect it if not allowed.
 
 # Important Files
-app\Http\Middleware\ChechRole  
+app\Http\Middleware\CheckRole  
 app\Http\Kernel - Line 66  
 app\Models\User  
 routes\web - Last block  
